@@ -101,7 +101,7 @@ def Dispatcher(env, resp):
 
 
 # Run this bad server only on localhost!
-httpd = make_server('', 8000, Dispatcher)
-print "Serving HTTP on port 8000..."
+httpd = make_server('', 8970, Dispatcher)
+print "Serving HTTP on port 8970..."
 httpd.serve_forever()
 
